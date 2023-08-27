@@ -13,6 +13,11 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.6.3'
 }
 
+// configure to use the junit5 platform
+test {
+    useJUnitPlatform()
+}
+
 // declare java classes to be build from main/java directory
 jar {
     manifest {
