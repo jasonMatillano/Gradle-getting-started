@@ -6,4 +6,5 @@ jar {
     manifest {
         attributes('Main-Class': 'com.jason.languageapp.SayHello')
     }
+
 }
